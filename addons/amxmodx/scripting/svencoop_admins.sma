@@ -2,7 +2,7 @@
 #include <amxmisc>
 
 #define PLUGIN_NAME     "Sven Co-op Admin Sync"
-#define PLUGIN_VERSION  "1.0"
+#define PLUGIN_VERSION  "1.0.1"
 #define PLUGIN_AUTHOR   "gabuch2"
 
 #pragma semicolon 1
@@ -102,3 +102,10 @@ public plugin_cfg()
     else
         pause("ad");
 }
+
+#if AMXX_VERSION_NUM < 183
+stock get_pcvar_bool(const iHandle)
+{
+	return get_pcvar_num(iHandle) != 0;
+}
+#endif
