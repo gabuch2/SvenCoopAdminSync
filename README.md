@@ -1,6 +1,3 @@
-# SvenCoopAdminSync
-AMXX plugin to syncronize your AMXX Admin List with Sven Co-op's own admin file. 
-
 # Sven Co-op Admin Syncronization
 
 Sven Co-op Admin Syncronization is an AMXX plugin that allows server operators to syncronize their AMXX admins with [Sven Co-op's own administrator system](http://www.svencoop.com/manual/server-advanced.html#admins).
